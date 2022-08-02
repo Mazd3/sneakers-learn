@@ -1,6 +1,6 @@
 function Drawer() {
   return (
-    <div style={{ display: "none" }} className="overlay">
+    <div style={{ display: 'none' }} className="overlay">
       <div className="drawer">
         <h2 className="mb-30 d-flex justify-between">
           Корзина
@@ -11,8 +11,7 @@ function Drawer() {
           <div className="cartItem d-flex align-center mb-20">
             <div
               className="cartItemImg"
-              style={{ backgroundImage: "url(/img/sneakers/1.jpg)" }}
-            ></div>
+              style={{ backgroundImage: 'url(/img/sneakers/1.jpg)' }}></div>
             <div className="mr-20 flex">
               <p className="mb-5">Мужские Кроссовки Nike Blazer Mid Suede</p>
               <b>12 999 руб.</b>
